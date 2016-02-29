@@ -1,5 +1,7 @@
 ﻿using System;
 
+using System.
+
 namespace PayUp.Library.DataAccess.Entities
 {
 	internal class PayUpUser : BaseEntity, IPayUpUser
@@ -16,6 +18,9 @@ namespace PayUp.Library.DataAccess.Entities
 
 		#region methods
 
+		/// <summary>
+		/// Initializes a new instance of the <see cref="PayUp.Library.DataAccess.Entities.PayUpUser"/> class.
+		/// </summary>
 		public PayUpUser(int userId, string email, string name, Common.PayUpUser.Status status, string password,
 			string createdBy, DateTime dateTimeCreated, string modifiedBy, DateTime dateTimeModified)
 		{
@@ -30,6 +35,8 @@ namespace PayUp.Library.DataAccess.Entities
 			this.ModifiedBy = modifiedBy.ToLower ();
 			this.DateTimeModified = dateTimeModified;
 		}
+
+
 
 		#endregion
 

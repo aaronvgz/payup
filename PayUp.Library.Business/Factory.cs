@@ -1,15 +1,20 @@
 ﻿using System;
 
-
-
 namespace PayUp.Library.Business.Factory
 {
+	public static class PayUpLogin
+	{
+		public static IPayUpLoginService Instance()
+		{
+			return new Entities.PayUpLoginService ();
+		}
+	}
 
-	public class PayUpUser
+	public static class PayUpUser
 	{
 		public static IPayUpUserService Instance()
 		{
-			return new PayUpUserService ();
+			return new Entities.PayUpUserService ();
 		}
 	}
 

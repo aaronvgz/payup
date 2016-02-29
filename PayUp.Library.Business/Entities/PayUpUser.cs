@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PayUp.Library.Business
+namespace PayUp.Library.Business.Entities
 {
 	internal class PayUpUser : IPayUpUser
 	{

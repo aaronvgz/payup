@@ -40,6 +40,7 @@
     <Compile Include="Entities\PayUpUser.cs" />
     <Compile Include="Entities\PayUpUserService.cs" />
     <Compile Include="IEntities\IPayUpLoginService.cs" />
+    <Compile Include="Entities\PayUpLoginService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>

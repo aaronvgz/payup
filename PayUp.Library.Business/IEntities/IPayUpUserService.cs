@@ -14,9 +14,8 @@ namespace PayUp.Library.Business
 
 		IPayUpUser GetOneByEmailPassword(string email, string password);
 
-		IPayUpUser CreateOne (string email, string password, string confirmPassword, string name);
+		IPayUpUser CreateOne (string email, string password, string confirmPassword, string name, string createdBy);
 
 		#endregion
 	}
 }
-

@@ -2,11 +2,11 @@
 
 namespace PayUp.Library.Business
 {
-	public interface IPayUpUser
+	public interface IPayUpUser : IBaseEntity
 	{
 		#region Properties
 
-		int UserId {get;set;}
+		int UserId {get;}
 
 		string Name {get;set;}
 

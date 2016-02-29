@@ -16,9 +16,10 @@ namespace PayUp.Library.Business.Entities
 			throw new NotImplementedException ();
 		}
 
-		public IPayUpUser CreateOne (string email, string password, string confirmPassword, string name)
+		public IPayUpUser CreateOne (string email, string password, string confirmPassword, string name, string createdBy)
 		{
-			throw new NotImplementedException ();
+			var dataEntity = DataAccess.Factory.PayUpUser.Instance ().InsertOne (email, password, name, createdBy);
+			return Factory.PayUpUser.Instance (dataEntity);
 		}
 
 		#endregion

@@ -2,8 +2,6 @@
 using NUnit;
 using NUnit.Framework;
 
-using PayUp.Library.Business;
-
 namespace PayUp.Library.Business.Test
 {
 	[TestFixture]
@@ -13,10 +11,10 @@ namespace PayUp.Library.Business.Test
 		public void LoginEmailPassword()
 		{
 			Assert.True (
-				Business.Factory.PayUpLogin.Instance().LoginEmailPassword("aaron.zabala@hotmail.com","test"), 
+				Factory.PayUpLogin.Instance().LoginEmailPassword("aaron.zabala@hotmail.com","test"), 
 				this.GetType().ToString());
 			Assert.False (
-				Business.Factory.PayUpLogin.Instance().LoginEmailPassword("xxxxxx@hotmail.com","test"), 
+				Factory.PayUpLogin.Instance().LoginEmailPassword("xxxxxx@hotmail.com","test"), 
 				this.GetType().ToString());
 		}
 

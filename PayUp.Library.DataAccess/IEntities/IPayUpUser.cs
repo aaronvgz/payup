@@ -12,6 +12,8 @@ namespace PayUp.Library.DataAccess
 
 		string Email {get;set;}
 
+		string Passowrd {get;set;}
+
 		Common.PayUpUser.Status Status {get;set;}
 
 		#endregion

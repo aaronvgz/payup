@@ -18,7 +18,7 @@ namespace PayUp.Library.Business.Entities
 
 		public IPayUpUser CreateOne (string email, string password, string confirmPassword, string name, string createdBy)
 		{
-			var dataEntity = DataAccess.Factory.PayUpUser.Instance ().InsertOne (email, password, name, createdBy);
+			var dataEntity = DataAccess.Factory.PayUpUser.Instance ().InsertOne (email, password, name, Common.PayUpUser.Status.Active, createdBy);
 			return Factory.PayUpUser.Instance (dataEntity);
 		}
 

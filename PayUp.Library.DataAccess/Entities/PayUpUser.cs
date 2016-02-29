@@ -10,13 +10,25 @@ namespace PayUp.Library.DataAccess.Entities
 
 		public string Email {get;set;}
 
+		public string Passowrd {get;set;}
+
 		public Common.PayUpUser.Status Status {get;set;}
 
 		#region methods
 
-		public PayUpUser()
+		public PayUpUser(int userId, string email, string name, Common.PayUpUser.Status status, string password,
+			string createdBy, DateTime dateTimeCreated, string modifiedBy, DateTime dateTimeModified)
 		{
-			
+			this.UserId = userId;
+			this.Email = email.ToLower ();
+			this.Name = email.ToLower ();
+			this.Status = status;
+			this.Passowrd = password;
+
+			this.CreatedBy = createdBy.ToLower ();
+			this.DateTimeCreated = dateTimeCreated;
+			this.ModifiedBy = modifiedBy.ToLower ();
+			this.DateTimeModified = dateTimeModified;
 		}
 
 		#endregion

@@ -29,9 +29,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Tests.cs" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.0.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\PayUp.Library.Business\PayUp.Library.Business.csproj">
+      <Project>{1FDCF32C-5366-4040-8DB6-01673F69E401}</Project>
+      <Name>PayUp.Library.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PayUpUserLoginService.cs" />
+  </ItemGroup>
 </Project>

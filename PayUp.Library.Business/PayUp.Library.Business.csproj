@@ -39,7 +39,6 @@
     <Compile Include="IEntities\IPayUpUserService.cs" />
     <Compile Include="Entities\PayUpUser.cs" />
     <Compile Include="Entities\PayUpUserService.cs" />
-    <Compile Include="IEntities\IPayUpLoginService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>

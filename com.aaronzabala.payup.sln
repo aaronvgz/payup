@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayUp.Library.Common", "Pay
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{F51C7BB7-07E6-4AEE-8AB6-E93CBDFFA6D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayUp.Library.Business.Test", "PayUp.Library.Business.Test\PayUp.Library.Business.Test.csproj", "{0E770EBF-65F1-4026-848F-32253CE63362}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,18 @@ Global
 		Debug|iPhone = Debug|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Release|iPhone.Build.0 = Release|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{0E770EBF-65F1-4026-848F-32253CE63362}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{1FDCF32C-5366-4040-8DB6-01673F69E401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1FDCF32C-5366-4040-8DB6-01673F69E401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FDCF32C-5366-4040-8DB6-01673F69E401}.Debug|iPhone.ActiveCfg = Debug|Any CPU
@@ -83,6 +97,7 @@ Global
 		{D6AAC345-7714-4254-998F-27D716469E96} = {828BB200-A6A1-4BF8-8162-B39045725915}
 		{8AB52D63-7D69-4E8D-A5FF-C85EAA90C02C} = {FBB5E8F5-41D2-47D4-8753-EA505AD860F3}
 		{3B60776F-7B29-4348-9B9B-D1A09775CEF3} = {DACC28A1-96FB-40E2-B667-370F82177765}
+		{0E770EBF-65F1-4026-848F-32253CE63362} = {F51C7BB7-07E6-4AEE-8AB6-E93CBDFFA6D4}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0

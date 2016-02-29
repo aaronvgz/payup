@@ -1,7 +1,5 @@
 ﻿using System;
 
-using System.
-
 namespace PayUp.Library.DataAccess.Entities
 {
 	internal class PayUpUser : BaseEntity, IPayUpUser

@@ -41,7 +41,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PayUpUserLoginService.cs" />
+    <Compile Include="PayUpLoginService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
